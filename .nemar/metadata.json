@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005291",
-  "source": "openneuro",
-  "source_id": "ds005291",
+  "pipeline_stage": "validated",
   "title": "65 By ANT",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Zhao Xiangyue": {},
     "Zhou Jingyao": {},
@@ -13,21 +13,68 @@
     "Bi Yanzhi": {},
     "Hu Li": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005291.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005291",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005291",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005291",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 65 participants during a nociceptive laser stimulation paradigm with subjective pain rating. Participants received 30 laser stimuli at individually calibrated intensities and provided verbal pain ratings on a 0-10 scale. The study investigates the neural correlates of pain perception and subjective pain intensity assessment.",
+  "methods_description": "Participants underwent 30 laser stimulations at individually calibrated energy intensities (corresponding to an average pain rating of 7). Following each stimulus, participants provided verbal pain ratings on a scale from 0 (no sensation) to 10 (unbearable pain). Participants were instructed to maintain fixation on a crosshair while keeping eyes open. Intertrial intervals were randomized at approximately 5 seconds following pain rating. Laser markers in the EEG data are delayed by 100ms.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Pain Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D058748"
+    },
+    {
+      "term": "laser stimulation"
+    },
+    {
+      "term": "Nociception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
+    },
+    {
+      "term": "subjective pain rating"
+    }
+  ],
+  "source_hash": "1c5ab1e1820e8fdab464e8ac725d3f3771c24183e361128c587378709765a79f"
 }
