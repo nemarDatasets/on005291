@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005291-blue)](https://doi.org/10.82901/nemar.on005291)
+
 1.Study introduction:
 In this experiment, participants were initially exposed to a series of laser stimulations of varying intensities. Researchers identified the energy intensity corresponding to an average rating of 7 from the participants. Subsequently, each participant underwent 30 laser stimuli and provided verbal pain ratings one by one. The pain ratings were on a scale where 0 indicated no sensation at all, 4 indicated the onset of pain, 6 represented moderate pain, 8 indicated severe pain, and 10 denoted unbearable pain.
 2.Participant task information(description of the experiment): 
